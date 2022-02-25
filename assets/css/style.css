@@ -136,10 +136,12 @@ a:hover {
 /*--/ Title s /--*/
 .title-s {
   font-weight: 600;
-  color: red;
+  color: white;
   font-size: 1.3rem;
 }
-
+.skill-mf .title-s{
+  color:red;
+}
 /*--/ Title A /--*/
 .title-box {
   margin-bottom: 4rem;
