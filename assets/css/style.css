@@ -139,7 +139,9 @@ a:hover {
   color: white;
   font-size: 1.3rem;
 }
-
+.skill-mf .title-s{
+  color:red;
+}
 /*--/ Title A /--*/
 .title-box {
   margin-bottom: 4rem;
@@ -600,6 +602,15 @@ a:hover {
 .more-info .lead{
   color:white;
 }
+.about-img{
+  display: flex;
+  justify-content: center;
+}
+.img-fluid{
+  max-width:100%;
+  border-radius: 150px;
+  box-shadow: 2px 2px 2px 2px rgb(116, 116, 116);
+}
 @media (max-width: 991px) {
   .lead{
     font-size:1.25rem;
@@ -613,6 +624,15 @@ a:hover {
   .navbar ul {
     display: none;
   }
+  .about-img{
+    display: flex;
+    justify-content: center;
+  }
+  .img-fluid{
+    max-width:70%;
+    border-radius: 150px;
+    box-shadow: 2px 2px 2px 2px rgb(116, 116, 116);
+  }
   .socials .ico-circle {
     height: 40px;
     width: 40px;
@@ -620,6 +640,7 @@ a:hover {
     line-height: 1.6;
     margin: 0px 9px 0px 0px;
   }
+  
 }
 .navbar-mobile {
   position: fixed;
