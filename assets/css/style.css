@@ -597,10 +597,10 @@ a:hover {
   display: flex;
   justify-content: center;
 }
-.img-fluid{
+.img-fluid-hero{
   max-width:100%;
   border-radius: 150px;
-  box-shadow: 2px 2px 2px 2px rgb(116, 116, 116);
+  box-shadow: 2px 2px 2px 2px rgb(53, 53, 53);
 }
 @media (max-width: 991px) {
   .lead{
@@ -619,10 +619,10 @@ a:hover {
     display: flex;
     justify-content: center;
   }
-  .img-fluid{
+  .img-fluid-hero{
     max-width:70%;
     border-radius: 150px;
-    box-shadow: 2px 2px 2px 2px rgb(116, 116, 116);
+    box-shadow: 2px 2px 2px 2px rgb(53, 53, 53);
   }
   .socials .ico-circle {
     height: 40px;
