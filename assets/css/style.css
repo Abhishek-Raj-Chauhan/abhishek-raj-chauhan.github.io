@@ -841,6 +841,21 @@ a:hover {
   height: 0.7rem;
   background-color: rgba(255, 0, 0, 0.61);
 }
+/*Scroll Bar*/
+::-webkit-scrollbar{
+  background-color: black;
+  width:10px;
+}
+::-webkit-scrollbar-button{
+  background-color: rgb(0, 0, 0);
+}
+::-webkit-scrollbar-thumb{
+  background-color: red;
+  border-radius: 50px;
+}
+::-webkit-scrollbar-track{
+  background-color: rgb(0, 0, 0);
+}
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
