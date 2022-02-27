@@ -152,7 +152,7 @@
       }
     }
   });
-
+  document.addEventListener('contextmenu', event => event.preventDefault());
   /**
    * Intro type effect
    */
